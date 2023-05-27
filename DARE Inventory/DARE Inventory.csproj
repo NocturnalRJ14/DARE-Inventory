@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>DARE_Inventory</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="05 DARE_Logo_With Subtitle_Mint.png" />
+    <None Remove="08 DARE_Logo_No Subtitle_Mint.png" />
+    <None Remove="09 DARE_Logo_No Subtitle_White.png" />
+    <None Remove="10 DARE_Logo_Square_Black.png" />
+    <None Remove="add_black_24dp.svg" />
+    <None Remove="DARE_Logo_No Subtitle_Black %284%29.png" />
+    <None Remove="outline_add_white_24dp.png" />
+    <None Remove="outline_remove_white_24dp.png" />
+    <None Remove="outline_update_black_18.png" />
+    <None Remove="outline_update_black_48.png" />
+    <None Remove="remove_white_24dp.svg" />
+    <None Remove="round_highlight_off_black_24.png" />
+    <None Remove="round_highlight_off_black_48.png" />
+    <None Remove="to-do-list.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="05 DARE_Logo_With Subtitle_Mint.png" />
+    <Resource Include="08 DARE_Logo_No Subtitle_Mint.png" />
+    <Resource Include="09 DARE_Logo_No Subtitle_White.png" />
+    <Resource Include="10 DARE_Logo_Square_Black.png" />
+    <Resource Include="add_black_24dp.svg" />
+    <Resource Include="DARE_Logo_No Subtitle_Black (4).png" />
+    <Resource Include="outline_add_white_24dp.png" />
+    <Resource Include="outline_remove_white_24dp.png" />
+    <Resource Include="outline_update_black_18.png" />
+    <Resource Include="outline_update_black_48.png" />
+    <Resource Include="remove_white_24dp.svg" />
+    <Resource Include="round_highlight_off_black_24.png" />
+    <Resource Include="round_highlight_off_black_48.png" />
+    <Resource Include="to-do-list.png" />
+  </ItemGroup>
+
+</Project>
